@@ -211,63 +211,13 @@ SERVICES SECTION
 /*
 *
 =====================
-MAP SECTION
-=====================
-*
-*/
-#map {
-  height: 400px;
-}
-
-.map-custom-popup .leaflet-popup-content-wrapper {
-  overflow: hidden;
-  padding: 0;
-  border-radius: 0;
-  font-family: "Cardo", "Times New Roman", Times, serif;
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-.map-custom-popup .leaflet-popup-content {
-  margin: 0;
-  background: #fff;
-}
-
-.map-custom-popup .leaflet-popup-tip {
-  background: #fff;
-}
-
-.map-custom-popup a.leaflet-popup-close-button {
-  display: inline-block;
-  width: 30px !important;
-  height: 30px !important;
-  padding: 0 !important;
-  text-align: center;
-  vertical-align: middle;
-  text-decoration: none;
-  color: #fff !important;
-  background: #343a40 !important;
-  font-weight: bold;
-  line-height: 30px !important;
-}
-
-.map-custom-popup .leaflet-popup-content p {
-  margin: 0 0 1rem;
-}
-
-.map-custom-popup .leaflet-popup-content a {
-  color: #333;
-}
-
-/*
-*
-=====================
 CONTACT SECTION
 =====================
 *
 */
 .contact-form {
   margin-bottom: 40px;
+    margin: auto;
 }
 
 p.social {
@@ -277,7 +227,7 @@ p.social {
 
 p.social a {
   margin: 0 10px 0 0;
-  color: #fff;
+  color: black;
   display: inline-block;
   width: 38px;
   height: 38px;
@@ -292,27 +242,23 @@ p.social a {
 
 p.social a i {
   vertical-align: bottom;
-  line-height: 38px;
+  line-height: 40px;
 }
 
 p.social a.facebook {
-  background-color: #ccc;
-}
-
-p.social a.gplus {
-  background-color: #333;
+  background-color: #775699;
 }
 
 p.social a.twitter {
-  background-color: #aaa;
+  background-color: #775699;
 }
 
 p.social a.instagram {
-  background-color: #999;
+  background-color: #775699;
 }
 
 p.social a.email {
-  background-color: #666;
+  background-color: #775699;
 }
 
 /*
@@ -623,7 +569,7 @@ STYLE SWITCHER FOR DEMO
 .show > .btn-success.dropdown-toggle {
   color: #fff;
   background-color: #1e7e34;
-  border-color: #1c7430;
+  border-color: #c5b4ce;
 }
 
 .btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus,
@@ -634,38 +580,38 @@ STYLE SWITCHER FOR DEMO
 
 .btn-info {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
+  background-color: #9873b4;
+  border-color: #c5b4ce;
 }
 
 .btn-info:hover {
   color: #fff;
-  background-color: #138496;
-  border-color: #117a8b;
+  background-color: #c5b4ce;
+  border-color: #9873b4;
 }
 
 .btn-info:focus, .btn-info.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem #c5b4ce;
+  box-shadow: 0 0 0 0.2rem #c5b4ce;
 }
 
 .btn-info.disabled, .btn-info:disabled {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
+  background-color: #c5b4ce;
+  border-color: #c5b4ce;
 }
 
 .btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active,
 .show > .btn-info.dropdown-toggle {
   color: #fff;
-  background-color: #117a8b;
-  border-color: #10707f;
+  background-color: #9873b4;
+  border-color: #c5b4ce;
 }
 
 .btn-info:not(:disabled):not(.disabled):active:focus, .btn-info:not(:disabled):not(.disabled).active:focus,
 .show > .btn-info.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem #c5b4ce;
+  box-shadow: 0 0 0 0.2rem #c5b4ce;
 }
 
 .btn-warning {
