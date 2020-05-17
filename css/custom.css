@@ -29,7 +29,7 @@
 }
 .carousel .overview b {
 	text-transform: uppercase;
-	color: #7AA641;
+	color: #855fad;
 }
 .carousel .carousel-control {
 	width: 20px;
@@ -43,24 +43,25 @@
 	line-height: 42px;
     position: absolute;
     display: inline-block;
-	color: rgba(0, 0, 0, 0.8);
+	color: #855fad;
     text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
 }
 .carousel .carousel-indicators {
 	bottom: -40px;
 }
+
 .carousel-indicators li, .carousel-indicators li.active {
-	width: 10px;
-	height: 10px;
+	width: 3%;
+	height: 50%;
 	margin: 1px 3px;
-	border-radius: 50%;
+	border-radius: 100%;
 }
 .carousel-indicators li {	
-	background: #999;
+	background: #ab9cba;
 	border-color: transparent;
 	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
 }
 .carousel-indicators li.active {	
-	background: #555;		
+	background: #775699;		
 	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
 }
