@@ -2,15 +2,13 @@
 .carousel {
 	margin: 50px auto;
 	padding: 0 70px;
-    width: 1200px; 
-    right: 5%;
 }
 .carousel .item {
 	color: white;
 	font-size: 17px;
     text-align: center;
 	overflow: hidden;
-    min-height: 290px;
+    min-height: 120px;
 }
 .carousel .item .img-box {
 	width: 400px;
