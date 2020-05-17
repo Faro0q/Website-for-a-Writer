@@ -1,15 +1,7 @@
-################################################################################################
-
-Documentation for Black and White by Bootstrapious - https://bootstrapious.com
-
-################################################################################################
 
 Hi,
 
-thank you for downloading. Have fun and tell your friends about us ;)
-
-Ondrej, Bootstrapious
-
+Site created using Bootstrapious template.
 
 CSS
 ----------
@@ -22,10 +14,6 @@ JavaScript
 
 Apart from the Bootstrap JS components, the majority of JS is located in /js/front.js. 
 
-Google Map
-----------
-
-To make the Google map work on your site, you have to generate the Google Maps API key and replace it in the code. For more info have a look at my tutorial at https://bootstrapious.com/p/google-maps-and-bootstrap-tutorial.
 
 Contact Form
 ----------
@@ -44,25 +32,23 @@ Credits
 ## Changelog ##
 
 -----------------------------------------------------------------------------------------
-Version 2.0.1 - 2018/02/14
+Version 2.0.1 - 05/17/2020
 -----------------------------------------------------------------------------------------
 
-- updated: Bootstrap to 4.3.1
-- updated plugins: PopperJs, Bootstrap Select
-- replaced Google Maps by Open Street Maps + Leaflet.js
+- created a carsouel slide
+- added more blocks into the website
 
 -----------------------------------------------------------------------------------------
-Version 2.0.0 - 2018/05/01
+Version 2.0.0 - 05/16/2020
 -----------------------------------------------------------------------------------------
 
-- remake and upgrade to Bootstrap to 4.1.1
+- updated it to the users needs
 
 -----------------------------------------------------------------------------------------
-Version 1.0.0 - 2015/12/05
+Version 1.0.0 - 05/16/2020
 -----------------------------------------------------------------------------------------
 
-- Initial release
-
+- Created a basic website
 
 ---------------------
  LICENSE CONDITIONS
