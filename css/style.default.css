@@ -203,9 +203,6 @@ SERVICES SECTION
 }
 
 .services .icon {
-  font-size: 50px;
-  color: #262626;
-  margin-bottom: 10px;
 }
 
 /*
@@ -1073,7 +1070,7 @@ body {
 }
 
 a {
-  color: #333;
+  color: #775699;
   text-decoration: none;
 }
 

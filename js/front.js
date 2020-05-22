@@ -35,13 +35,19 @@ $(function () {
     });
 
     // ------------------------------------------------------ //
-    // styled Google Map
+    // Portfolio script to appear and dissapear
     // ------------------------------------------------------ //
-
+//     $(document).ready(function(){
+//         $(".dropdown-menu a").on("click",function(){
+//          var iddiv =  $(this).attr("id") ;
+//              $(".box").hide();
+//              $("."+iddiv).show();
+//                 });
+//      });
 
 
     // ------------------------------------------------------ //
-    // For demo purposes, can be deleted
+    // navbar
     // ------------------------------------------------------ //
 
     var stylesheet = $('link#theme-stylesheet');
@@ -71,3 +77,156 @@ $(function () {
     });
 
 });
+
+// Made each tab obect have a # on the url
+$('a[data-toggle="pill"]').on('click', function (e) {
+    var target = this.href.split('#');
+    $('.nav a').filter('a[href="#'+target[1]+'"]').tab('show');
+})
+
+
+    // ------------------------------------------------------ //
+    // enlarge the image
+    // ------------------------------------------------------ //
+    // 
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg");
+    var modalImg = document.getElementById("img01");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+    
+
+ // ------------------------------------------------------ //
+    // enlarge the image
+    // ------------------------------------------------------ //
+    // 
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg1");
+    var modalImg = document.getElementById("img01");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+    
+    
+    
+     // ------------------------------------------------------ //
+    // enlarge the image
+    // ------------------------------------------------------ //
+    // 
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg2");
+    var modalImg = document.getElementById("img01");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+    
+    
+    
+     // ------------------------------------------------------ //
+    // enlarge the image
+    // ------------------------------------------------------ //
+    // 
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg3");
+    var modalImg = document.getElementById("img01");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+    
+    
+    
+     // ------------------------------------------------------ //
+    // enlarge the image
+    // ------------------------------------------------------ //
+    // 
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg4");
+    var modalImg = document.getElementById("img01");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+    
+    
+         // ------------------------------------------------------ //
+    // enlarge the image
+    // ------------------------------------------------------ //
+    // 
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg5");
+    var modalImg = document.getElementById("img01");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
