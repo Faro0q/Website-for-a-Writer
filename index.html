@@ -124,6 +124,14 @@
      <section id="blog" class="details-card">
          <div class="container">
              <h2 class="heading">Blog</h2>
+             <div id="banner">
+                <div id="wrapper" style="width:100%; overflow:hidden;">
+                    <div id="container" style="width:100%; margin-right:auto;">
+                            <A HREF="http://www.nalashirts.com"><img style="width: 100%;" src="img/jessbanner.jpg" alt="N.A.L.A. Apparel"/>
+                    </div>
+                </div>
+            </div>
+                 <br>
              <div class="row">
             <div class="col-md-4">
                 <div class="card-content">
@@ -165,6 +173,8 @@
                 </div>
             </div>
         </div>
+              <br><br><br><br>
+              <a href="https://radical-join.codio.io/blog.html"><h1>Check out my blog here</h1></a>
          </div>
        </section>
            
@@ -355,34 +365,48 @@
                   <h2 class="heading">Let's Talk</h2>
                   <div class="row">
                      <div class="col-lg-6">
-                        <form id="contact-form" method="post" action="contact.php" class="contact-form">
+                         
+                        <form id="contact-form" method="post" action="contact.php" role="form">
+                           <div class="messages"></div>
                            <div class="controls">
+                               
                               <div class="row">
                                  <div class="col-md-6">
                                     <div class="form-group">
-                                       <label for="name">First Name *</label>
-                                       <input type="text" name="name" placeholder="Enter your firstname" required="required" class="form-control">
-                                    </div>
+                                       <label for="form_name">First Name *</label>
+                                       <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your firstname" required="required" data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                     </div>
                                  </div>
                                  <div class="col-md-6">
                                     <div class="form-group">
-                                       <label for="surname">Last Name *</label>
-                                       <input type="text" name="surname" placeholder="Enter your lastname" required="required" class="form-control">
-                                    </div>
+                                       <label for="form_lastname">Last Name *</label>
+                                       <input id="form_lastname" type="text" name="surname" placeholder="Enter your lastname" required="required" class="form-control" data-error="Lastname is required.">
+                                       <div class="help-block with-errors"></div> 
+                                     </div>
                                  </div>
                               </div>
                               <div class="form-group">
-                                 <label for="surname">Email *</label>
-                                 <input type="email" name="email" placeholder="Enter your email" required="required" class="form-control">
+                                 <label for="form_email">Email *</label>
+                                 <input id="form_email" type="email" name="email" placeholder="Enter your email" required="required" class="form-control" data-error="Valid email is required.">
+                                 <div class="help-block with-errors"></div>
                               </div>
                               <div class="form-group">
-                                 <label for="surname">What would you like to say? *</label>
-                                 <textarea rows="4" name="message" placeholder="Enter your message" required="required" class="form-control"></textarea>
-                              </div>
+                                 <label for="form_message">What would you like to say? *</label>
+                                 <textarea id="form_message" rows="4" name="message" placeholder="Enter your message" required="required" class="form-control"  data-error="Please, leave us a message."></textarea>
+                                 <div class="help-block with-errors"></div>
+                               </div>
                               <div class="text-center">
-                                 <input type="submit" name="name" value="Send message" class="btn btn-outline-primary btn-block">
+                                 <input type="submit" value="Send message" class="btn btn-success btn-send">
                               </div>
                            </div>
+                           <div class="row">
+                                <div class="col-md-12">
+                                    <p class="text-muted">
+                                    <strong>*</strong> These fields are required. Contact form template by
+                                    <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p>
+                                </div>
+                            </div>
                         </form>
                      </div>
                      <div class="col-lg-6">
@@ -481,5 +505,6 @@
       <script src="vendor/lightbox2/js/lightbox.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
       <script src="js/front.js"></script>
+      <script src="contact.js"></script>    
    </body>
 </html>

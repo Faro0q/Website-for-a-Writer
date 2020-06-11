@@ -4,13 +4,13 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'Demo contact form <demo@domain.com>';
+$from = 'Demo contact form <srizwa3@uic.edu>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Demo contact form <demo@domain.com>';
+$sendTo = 'Demo contact form <farooqrizwan16@gmail.com>';
 
 // subject of the email
-$subject = 'New message from contact form';
+$subject = 'New message from JEM Edits Website';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
@@ -27,7 +27,7 @@ $errorMessage = 'There was an error while submitting the form. Please try again 
  */
 
 // if you are not debugging and don't need error reporting, turn this off by error_reporting(0);
-error_reporting(E_ALL & ~E_NOTICE);
+error_reporting(0);
 
 try
 {
